@@ -17,7 +17,14 @@ button:hover {
   text-decoration: none;
 }
 
+footer a {
+  color: black;
+}
 
+footer a:hover {
+  color: #E4F9F5;
+  text-decoration: none;
+}
 /*------------------------navbar styling---------------------------*/
 
 
@@ -122,6 +129,7 @@ button:hover {
 
 }
 
+/*------------------------Footer Styling-------------------------*/
 .footer-div {
   padding: 1% 0 1% 0;
   background-color: #22577A;

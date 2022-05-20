@@ -1,0 +1,188 @@
+/*----------------------------Common-------------------------------*/
+
+body {
+  background-color: #11999E
+}
+
+h6 {
+  line-height: 200%;
+}
+
+footer a {
+  color: black;
+}
+
+footer a:hover {
+  color: #E4F9F5;
+  text-decoration: none;
+}
+/*------------------------navbar styling---------------------------*/
+.container-fluid {
+  background-color: #40514E;
+}
+.navbar {
+  margin-right: 2%;
+}
+.navbar-nav {
+  margin: 0 2% 0;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #E4F9F5;
+}
+
+.nav-link {
+  font-size: 1.25em;
+  text-decoration: none;
+}
+
+.nav-item {
+  padding: 0 0 0 2.5rem;
+}
+
+/*------------------------Location dropdown---------------------------*/
+
+.locationColumnDiv {
+  width: 40em;
+  background-color: #E4F9F5;
+}
+
+.dropdown-item:hover{
+  background-color: #22577A;
+  color: #E4F9F5;
+}
+
+.locationColumnDiv>.locationTwoColumns {
+  display: inline-block;
+  width: 32.4%;
+}
+.dropdownLocationItem {
+  font-size: 95%;
+}
+
+/*------------------------language dropdown---------------------------*/
+
+.dropdown-link {
+  margin-right: 1.5%;
+}
+.dropdown-menu {
+  min-width: 8.6rem;
+}
+
+/*------------------------dropdown animation---------------------------*/
+
+.dropdown .dropdown-menu {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+
+    max-height: 0;
+    display: block;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.dropdown.show .dropdown-menu {
+    max-height: 880px;
+    opacity: 1;
+}
+
+/*---------------------------Qui Som Page----------------------------*/
+/*---------------------------Text Styling----------------------------*/
+.title-div {
+  margin: 2% 35% 0;
+  padding: 1%;
+  background-color: #22577A;
+}
+
+.main-h1 {
+  text-align: center;
+  font-weight: 500;
+  color: #E4F9F5;
+}
+
+.content-text {
+  text-align: justify;
+  text-align-last: left;
+
+  font-weight: 500;
+  color: #E4F9F5;
+}
+
+.center-text p {
+  margin-left: 2%;
+  font-weight: 300;
+  color: #E4F9F5;
+}
+
+.center-text {
+  margin: 2% 20% 0;
+  padding: 1%;
+  background-color: #22577A;
+}
+
+.section-right {
+  display: grid;
+  grid-template-columns: 2;
+  grid-column-gap: 5%;
+  align-items: center;
+  margin: 2% 0 2% 45%;
+  padding: 1% 8% 1% 1%;
+  background-color: #22577A;
+  color: #E4F9F5;
+}
+
+.section-left {
+  display: grid;
+  grid-template-columns: 2;
+  grid-column-gap: 5%;
+  align-items: center;
+  margin: 2% 45% 2% 0;
+  padding: 1% 1% 1% 8%;
+  background-color: #22577A;
+  color: #E4F9F5;
+}
+
+.right-col {
+  grid-column: 2;
+  grid-row: 1;
+  text-align: justify;
+  text-align-last: left;
+}
+
+.left-col {
+  grid-column: 1;
+  grid-row: 1;
+  text-align: justify;
+  text-align-last: right;
+}
+
+.fakeimg {
+  height: 18rem;
+}
+/*------------------------Footer Styling-------------------------*/
+.footer-div {
+  padding: 1% 0 1% 0;
+  background-color: #22577A;
+}
+
+.footer-text {
+  text-align: center;
+  color: #E4F9F5;
+}
+
+.footer-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bottom {
+  margin-bottom: 2%
+}
+
+/*--------------------Sobre el Projecte Page---------------------*/
+/*---------------------------Contacte----------------------------*/
