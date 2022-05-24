@@ -247,6 +247,10 @@ iframe {
   color: #22577A;
   font-weight: 500;
 }
+
+.nomargin {
+  padding-left: 0.1%;
+}
 /*------------------------Column Styling---------------------------*/
 
 /* .firstColumn {
