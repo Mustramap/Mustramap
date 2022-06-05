@@ -60,6 +60,7 @@ h1 a:hover {
 
 p {
   text-indent: 0.8rem;
+  margin-block-start: 0;
 }
 
 iframe {
@@ -250,6 +251,10 @@ iframe {
 
 .nomargin {
   padding-left: 0.1%;
+}
+
+.noindent {
+  text-indent: 0;
 }
 /*------------------------Column Styling---------------------------*/
 
